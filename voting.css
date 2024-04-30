@@ -19,11 +19,7 @@ body {
   color: rgba(0, 0, 0, 100);
 }
 
-.page {
-  max-width: 30em;
-  margin: auto;
-  overflow: hidden;
-}
+
 .note1 {
   color: black;
   text-align: left;
@@ -36,3 +32,17 @@ font-weight:300}
   font-size: 16px;
 } 
 
+
+.tableauPlaceholder {
+  max-width: 45em;
+  height: 35em;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.page {
+  max-width: 30em;
+  margin: auto;
+  overflow: hidden;
+}
