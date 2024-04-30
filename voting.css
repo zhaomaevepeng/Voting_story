@@ -1,0 +1,38 @@
+h1.splitting {
+  color: #000000;
+}
+h1.splitting .char {
+  transition: transform 0.3s cubic-bezier(0.3, 0, 0.3, 1), opacity 0.3s linear;
+  transition-delay: calc( 20ms * var(--char-index) );
+}
+h1.splitting[data-scroll=out] .char {
+  opacity: 0.1;
+  transform: translateY(0.25em);
+}
+
+/* ---------------------------------- */
+html, body {
+  background: #ffffff;
+}
+
+body {
+  color: rgba(0, 0, 0, 100);
+}
+
+.page {
+  max-width: 30em;
+  margin: auto;
+  overflow: hidden;
+}
+.note1 {
+  color: black;
+  text-align: left;
+  font-size: 10 px;
+font-family: Arial, Helvetica, sans-serif;
+font-weight:300}
+
+.note20 {
+  color: teal;
+  font-size: 16px;
+} 
+
