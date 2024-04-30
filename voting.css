@@ -39,10 +39,11 @@ font-weight:300
 } 
 
 .tableauPlaceholder {
-  width: 40em;
+  width: 70%; 
+  margin-left: auto;
+  margin-right: auto;
   height: 30em;
   justify-content: center;
-  margin: auto;
 }
 
 
